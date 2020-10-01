@@ -56,7 +56,7 @@ ROOT_URLCONF = 'mysite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'], #add your html files to by making new directory templates
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
